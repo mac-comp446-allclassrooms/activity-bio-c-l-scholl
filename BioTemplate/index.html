@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <style>
-        h1{
-            color: navy;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        body{
-            text-align: left;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
-    <h1>Your Name </h1>
-    <h2> Here is your description! You do cool things, go you! </h2>
-    </head>
-    <body>
-    <img src="https://s24193.pcdn.co/wp-content/uploads/2016/07/entity-women-that-did-ada-lovelace-1320x720.jpg" width="400" height="400" alt="Computer Hope">
-    <p>
-        Where did you go to schooL?
-    </p>
-    <p>
-        Where do you work?
-    </p>
-    <p>
-        What are your accomplishments?
-    </p>
-    <a href="url"> your favorite cat video </a>
-</body>
+	<head>
+		<style>
+			h1 {
+				color: navy;
+				text-align: center;
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			}
+			body {
+				text-align: center;
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: antiquewhite;
+			}
+            .content-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .img-container {
+                margin: 0 1rem;
+            }
+            .cat-container {
+                margin: 0 1rem;
+            }
+
+		</style>
+		<h1>Christopher Sawyer</h1>
+		<h2>Creator of the Tycoon Game series</h2>
+	</head>
+	<body>
+		<img
+            src="chris_sawyer.jpg"
+			width="400"
+			height=auto
+			alt="Chris Sawyer"
+		/>
+		<p><i>Where did you go to school?</i></p>
+        <p>University of Strathclyde in Glasgow</p>
+		<p><i>Where do you work?</i></p>
+        <p>I started working at MemoTech and MS-DOS Games, before moving on to <i>Tycoon</i> Games. 
+            <br />I then took a break from the gaming industry before returning five years later to found 31X Ltd. 
+            <br /> Then, in 2017, I decided to once again depart from the gaming industry, and I am still on hiatus today.
+        </p>
+		<p><i>What are your accomplishments?</i></p>
+        <p>I have worked on nearly 30 games, including the very popular RollerCoaster Tycoon series. I created the original game as a solo machine language developer. <br /> The RollerCoaster Tycoon IP is currently licensed to Atari, who are still releasing new games and products.</p>
+        <div class="content-container">
+            <div class="image-container">
+                <img
+                src="rollercoaster_typhoon.gif"
+                width="400"
+                height="auto"
+                alt="RollerCoaster Typhoon GIF"
+            />
+            </div>
+            <div class="cat-container">
+                <a href="https://www.youtube.com/watch?v=1SB5lMyPmuk"> your favorite cat video </a>
+            </div>
+        </div>
+        
+		
+	</body>
 </html>
 
 <!-- extra challenges 
@@ -39,6 +72,8 @@ Add more text-->
 
 <!-- QUIZ
 - what does the <p> tag do?
+    paragraph text
 - what does the alt property of the img tag mean?
+    if the image doesn't show up properly, the alt property text will show instead
 - what does html stand for?
--->
+    Hypertext markup language
